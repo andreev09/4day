@@ -2,10 +2,26 @@ div {
   animation-duration: 3s;
   animation-name: slidein;
   animation-fill-mode: forwards;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+}
+
+body {
+  padding: 200px;
+}
+
+p {
+  /*animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;*/
   /*сохраняет анимацию в последней точке*/
 }
 
 @keyframes slidein {
+<<<<<<< HEAD
   from {
     top: 100%;
     left: 0;
@@ -15,5 +31,25 @@ to {
     top: 0;
     left: 100%;
     transform: rotate(70deg);
+=======
+  0% {
+    position: absolute;
+  right: 0%;
+  top: 0%;
+  bottom: 30%;
+  }
+
+  /*50% {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    }*/
+
+
+100% {
+  position: absolute;
+  right: 100%;
+  top: 100%;
+>>>>>>> parent of a6221dd... Revert "Смена опасити для сайта, попугай"
   }
 }
