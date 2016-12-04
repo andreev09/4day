@@ -1,0 +1,18 @@
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+  /*сохраняет анимацию в последней точке*/
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+to {
+  margin-left: 110%;
+  width: 200%;
+  }
+}
