@@ -1,4 +1,4 @@
-p {
+div {
   animation-duration: 3s;
   animation-name: slidein;
   animation-fill-mode: forwards;
@@ -7,12 +7,13 @@ p {
 
 @keyframes slidein {
   from {
-    margin-left: 0%;
-    width: 100%;
+    top: 100%;
+    left: 0;
   }
 
 to {
-  margin-left: 110%;
-  width: 200%;
+    top: 0;
+    left: 100%;
+    transform: rotate(70deg);
   }
 }
