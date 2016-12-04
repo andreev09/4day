@@ -1,0 +1,19 @@
+ul li{
+  margin-bottom: 5px;
+}
+
+.red {
+  position: relative;
+  padding: 15px;
+}
+
+.red:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background: red;
+  height: 10px;
+  width: 10px;
+  transform: translateY(-50%);
+}
