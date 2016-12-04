@@ -1,18 +1,43 @@
-p {
+div {
   animation-duration: 3s;
   animation-name: slidein;
   animation-fill-mode: forwards;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+}
+
+body {
+  padding: 200px;
+}
+
+p {
+  /*animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;*/
   /*сохраняет анимацию в последней точке*/
 }
 
 @keyframes slidein {
-  from {
-    margin-left: 0%;
-    width: 100%;
+  0% {
+    position: absolute;
+  right: 0%;
+  top: 0%;
+  bottom: 30%;
   }
 
-to {
-  margin-left: 110%;
-  width: 200%;
+  /*50% {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    }*/
+
+
+100% {
+  position: absolute;
+  right: 100%;
+  top: 100%;
   }
 }
