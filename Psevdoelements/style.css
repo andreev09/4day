@@ -1,0 +1,19 @@
+a {
+  position: relative;
+  padding-left: 33px;
+}
+a:before {
+  /*content: url(https://placekitten.com/50/50);*/
+  /*если размер иконки известен*/
+  content: "";
+
+  position: absolute;
+  left: 0;
+  background: url(envelope.svg) center no-repeat;
+  background-size: contain;
+  height: 16px;
+  width: 33px;
+
+}
+/*content: url(envelope.svg);
+}*/
